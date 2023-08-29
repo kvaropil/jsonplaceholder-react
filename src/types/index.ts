@@ -4,3 +4,8 @@ export interface Post {
   title: string;
   body: string;
 }
+
+export type PostDetailProps = {
+  post: Post;
+  goBack: () => void;
+};
